@@ -18,7 +18,7 @@ class LandingPage extends StatelessWidget {
                 height: 70,
               ),
               Text(
-                "Grocery Bar",
+                "Grocerie Bar",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: themeGreen,
@@ -62,16 +62,15 @@ class LandingPage extends StatelessWidget {
                         decoration: BoxDecoration(
                             gradient: LinearGradient(
                               colors: [
-                                // const Color(0xff44d7a8),
-                                const Color(0xff57a6a2),
-                                const Color(0xff57a6a2).withOpacity(0.5),
+                                themeGreen,
+                                themeGreen.withOpacity(1),
                               ],
                             ),
                             boxShadow: <BoxShadow>[
                               BoxShadow(
                                 offset: Offset(1.0, 1.0),
                                 blurRadius: 15.0,
-                                color: Color(0xff57a6a2).withOpacity(1),
+                                color: themeGreen.withOpacity(1),
                               ),
                             ],
                             borderRadius: BorderRadius.circular(10)),
@@ -79,7 +78,7 @@ class LandingPage extends StatelessWidget {
                           "Get Started".toUpperCase(),
                           style: TextStyle(
                               color: Colors.white,
-                              fontWeight: FontWeight.w600,
+                              // fontWeight: FontWeight.w600,
                               fontSize: 14),
                         ),
                       ),

@@ -30,7 +30,7 @@ class _ProductPageState extends State<ProductPage> {
 
   AppBar buildAppBar() {
     return AppBar(
-      title: Text('Grocery Bar'),
+      title: Text('Grocerie Bar'),
       centerTitle: true,
       backgroundColor: themeGreen,
       actions: <Widget>[
@@ -79,6 +79,7 @@ class _ProductPageState extends State<ProductPage> {
   }
 }
 
+// use drawer() to implement hamburger menu
 class NavDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -92,10 +93,6 @@ class NavDrawer extends StatelessWidget {
           children: <Widget>[
             UserAccountsDrawerHeader(
                 decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: AssetImage("assets/home.jpg"),
-                    fit: BoxFit.cover,
-                  ),
                   borderRadius: new BorderRadius.only(
                     bottomLeft: const Radius.circular(5.0),
                     bottomRight: const Radius.circular(5.0),

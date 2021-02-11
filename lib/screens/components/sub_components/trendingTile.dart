@@ -35,11 +35,10 @@ class TrendingTile extends StatelessWidget {
         children: <Widget>[
           Container(
             child: Stack(
-              overflow: Overflow.clip,
               children: <Widget>[
                 Container(
-                  width: 100,
-                  height: 100,
+                  width: 105,
+                  height: 150,
                   // Image
                   child: Image.asset(
                     imgURL,

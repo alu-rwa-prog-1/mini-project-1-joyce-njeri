@@ -33,15 +33,6 @@ List<TrendingProduct> getTrendingProducts() {
   product.price = 75;
   trendingProducts.add(product);
   product = new TrendingProduct();
-  //4
-  product.weight = "100g";
-  product.productName = "Lemons";
-  product.imgURL = "assets/lemons.jpg";
-  product.ratingValue = 4;
-  product.rating = 4;
-  product.price = 75;
-  trendingProducts.add(product);
-  product = new TrendingProduct();
 
   return trendingProducts;
 }
@@ -51,14 +42,6 @@ List<Product> getProducts() {
   List<Product> products = new List();
   Product product = new Product();
   //1
-  product.productName = "Apple";
-  product.ratingValue = 4;
-  product.imgURL = "assets/apple.png";
-  product.rating = 4;
-  product.price = 20;
-  products.add(product);
-  product = new Product();
-  //2
   product.productName = "Orange";
   product.ratingValue = 4;
   product.imgURL = "assets/orange.jpg";
@@ -66,15 +49,7 @@ List<Product> getProducts() {
   product.price = 20;
   products.add(product);
   product = new Product();
-  //3
-  product.productName = "Pear";
-  product.ratingValue = 4;
-  product.imgURL = "assets/pear.jpg";
-  product.rating = 4;
-  product.price = 20;
-  products.add(product);
-  product = new Product();
-  //4
+  //2
   product.productName = "Pineapple";
   product.ratingValue = 4;
   product.imgURL = "assets/pineapple.jpg";
@@ -82,7 +57,7 @@ List<Product> getProducts() {
   product.price = 20;
   products.add(product);
   product = new Product();
-  //5
+  //3
   product.productName = "Watermelon";
   product.ratingValue = 4;
   product.imgURL = "assets/watermelon.jpg";
@@ -90,14 +65,15 @@ List<Product> getProducts() {
   product.price = 20;
   products.add(product);
   product = new Product();
-  //6
-  product.productName = "Mango";
+  //4
+  product.productName = "Grapes";
   product.ratingValue = 4;
-  product.imgURL = "assets/mango.jpg";
+  product.imgURL = "assets/grapes.jpg";
   product.rating = 4;
   product.price = 20;
   products.add(product);
   product = new Product();
+
   return products;
 }
 
@@ -232,10 +208,10 @@ List<TrendingProduct> getOffers() {
   List<TrendingProduct> offers = new List<TrendingProduct>();
   TrendingProduct offer = new TrendingProduct();
   //1
-  offer.weight = "1000g";
+  offer.weight = "800g";
   offer.productName = "Fruit Basket";
   offer.imgURL = "assets/allfruits.jpg";
-  offer.ratingValue = 1;
+  offer.ratingValue = 4;
   offer.rating = 4;
   offer.price = 560;
   offers.add(offer);
@@ -244,7 +220,7 @@ List<TrendingProduct> getOffers() {
   offer.weight = "1000g";
   offer.productName = "Fruit Basket";
   offer.imgURL = "assets/allfruits.jpg";
-  offer.ratingValue = 3;
+  offer.ratingValue = 4;
   offer.rating = 4;
   offer.price = 600;
   offers.add(offer);
