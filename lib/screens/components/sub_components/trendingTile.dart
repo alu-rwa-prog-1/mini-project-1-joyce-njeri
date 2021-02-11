@@ -31,18 +31,19 @@ class TrendingTile extends StatelessWidget {
         ],
       ),
       child: Row(
+        mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           Container(
             child: Stack(
+              overflow: Overflow.clip,
               children: <Widget>[
                 Container(
+                  width: 100,
+                  height: 100,
                   // Image
-                  child: AspectRatio(
-                    aspectRatio: 3 / 4,
-                    child: Image.asset(
-                      imgURL,
-                      fit: BoxFit.contain,
-                    ),
+                  child: Image.asset(
+                    imgURL,
+                    fit: BoxFit.contain,
                   ),
                 ),
                 // Price

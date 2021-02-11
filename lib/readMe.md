@@ -51,3 +51,13 @@ This is where we initialize the variables to be used in building our app.
 3. Hamburger menu
 4. Bottom navigation bar
 
+## Resources
+
+1. Flutter: https://flutter.dev/docs
+2. Material Design: https://material.io/components?platform=flutter
+3. Google Fonts: https://pub.dev/packages/google_fonts
+4. List View: https://api.flutter.dev/flutter/widgets/ListView-class.html, https://medium.com/flutter-community/flutter-listview-and-scrollphysics-a-detailed-look-7f0912df2754#:~:text=A%20ListView%20in%20Flutter%20is,a%20list%20of%20repeating%20items.
+5. Box Decoration: https://api.flutter.dev/flutter/painting/BoxDecoration-class.html
+6. Circle Avatar: https://api.flutter.dev/flutter/material/CircleAvatar-class.html
+7. Images: https://api.flutter.dev/flutter/widgets/Image-class.html
+8. Bottom Navigation Bar: https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html

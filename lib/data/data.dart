@@ -17,8 +17,8 @@ List<TrendingProduct> getTrendingProducts() {
   product = new TrendingProduct();
   //2
   product.weight = "100g";
-  product.productName = "Black Grapes";
-  product.imgURL = "assets/grapes.jpg";
+  product.productName = "Lemons";
+  product.imgURL = "assets/lemons.jpg";
   product.ratingValue = 4;
   product.rating = 4;
   product.price = 75;
@@ -233,8 +233,8 @@ List<TrendingProduct> getOffers() {
   TrendingProduct offer = new TrendingProduct();
   //1
   offer.weight = "1000g";
-  offer.productName = "Family Package";
-  offer.imgURL = "assets/all.jpg";
+  offer.productName = "Fruit Basket";
+  offer.imgURL = "assets/allfruits.jpg";
   offer.ratingValue = 1;
   offer.rating = 4;
   offer.price = 560;
